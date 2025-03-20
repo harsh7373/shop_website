@@ -5,6 +5,22 @@ background-color: #191819;
 overflow: hidden;
 }
 
+@font-face {
+    font-family: 'AB Nirvana';
+    src: url('fonts/ABNirvana.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+  
+
+#home_page_html,#home_page_body{
+    overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+}
+
 #welcome_section{
 display: flex;
 justify-content: center;
@@ -25,6 +41,33 @@ position: relative;
     height: 100%;
     object-fit: cover;
 }
+
+#exp_btn_link{
+    position: absolute;
+    bottom: 40px;
+}
+
+#exp_btn{
+    background: linear-gradient(135deg, #C08A3E 15%, #8B0000 50%, #000000 85%);
+    color: #c19a60;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 28px;
+    border: 3px solid #C08A3E;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(192, 138, 62, 0.6);
+    font-family: 'Cinzel', serif;
+}
+
+#exp_btn:hover {
+    background: linear-gradient(135deg, #000000 20%, #8B0000 50%, #C08A3E 80%);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 0, 0, 0.7);
+}
+
+
 
 header{
     width: 100vw;
@@ -54,9 +97,171 @@ nav{
 }
 
 .nav_options{
-padding: 10px;
-font-family: 'Cinzel', serif;
-color: #717071;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Cinzel', serif;
+    color: #717071;
 }
 
+.fa-instagram{
+    font-size: 30px;
+    color: #717071;
+    position: absolute;
+    right: 100px;
+}
+
+.fa-magnifying-glass{
+    font-size: 30px;
+    color: #717071;
+    position: absolute;
+    right: 40px;
+}
+
+#main_content{
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+}
+
+#wrap{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#arch{
+    width: 300px;
+    height: 550px;
+}
+
+#floral{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    z-index: 1;
+    margin-top: 440px;
+    margin-right: 275px;
+}
+
+#floral2{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    z-index: 1;
+    margin-top: 440px;
+    margin-left: 280px;
+}
+
+#big_heading{
+    font-family: "AB Nirvana", serif;
+    font-size: 300px;
+    text-transform: uppercase;
+    letter-spacing: 60px;
+    color: gold;
+    text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
+    position: absolute;
+}
+
+
+#small_heading{
+    font-family: 'AB Nirvana', serif;
+    font-size: 64px;
+    font-weight: 100;
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    color: gold; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    margin-top: 300px;
+  }
+
+#black_floral{
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    margin-right: 90%;
+    margin-top: 480px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    filter: brightness(0) saturate(100%) invert(6%) sepia(2%) saturate(1349%) hue-rotate(22deg) brightness(300%) contrast(81%);
+}
+
+@media (max-width: 600px) {
+
+#nav_bar{
+    justify-content: end;
+    
+}
+
+.nav_options{
+    display: none;
+}
+
+.brand_name{
+    left: 20px;
+    font-size: 20px;
+}
+    
+.fa-instagram{
+    font-size: 25px;
+    margin-right: 20px;
+    right: unset;
+}
+
+.fa-magnifying-glass{
+    font-size: 25px;
+    margin-right: 45px;
+    right: unset;
+}
+
+#wrap{
+    height: 45%;
+}
+
+#arch{
+    width: 200px;
+    height: 300px;
+}
+
+#floral{
+    width: 100px;
+    height: 100px;
+    margin-top: 235px;
+    margin-right: 180px;
+}
+
+#floral2{
+    width: 100px;
+    height: 100px;
+    margin-top: 235px;
+    margin-left: 180px;
+}
+
+#big_heading{
+    font-size: 65px;
+    letter-spacing: 20px;
+    margin-bottom: 140px;
+}
+
+#small_heading{
+font-size: 35px;
+margin-top: unset;
+margin-top: 25px;
+}
+
+#black_floral{
+        width: 20%;
+        height: 20%;
+        position: absolute;
+        margin-right: 85%;
+        margin-top: 120px;
+        object-fit: contain;
+}
+
+}
 
