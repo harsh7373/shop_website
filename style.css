@@ -220,11 +220,11 @@ nav{
 }
 
 #wrap{
-    height: 45%;
+    height: 42%;
 }
 
 #arch{
-    width: 200px;
+    width: 150px;
     height: 300px;
 }
 
@@ -232,14 +232,14 @@ nav{
     width: 100px;
     height: 100px;
     margin-top: 235px;
-    margin-right: 180px;
+    margin-right: 140px;
 }
 
 #floral2{
     width: 100px;
     height: 100px;
     margin-top: 235px;
-    margin-left: 180px;
+    margin-left: 140px;
 }
 
 #big_heading{
@@ -249,7 +249,7 @@ nav{
 }
 
 #small_heading{
-font-size: 35px;
+font-size: 30px;
 margin-top: unset;
 margin-top: 25px;
 }
@@ -261,6 +261,47 @@ margin-top: 25px;
         margin-right: 85%;
         margin-top: 120px;
         object-fit: contain;
+}
+
+#wrap2{
+    border: 2px solid gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#showcase_box_1{
+    width: 150px;
+    height: 362px;
+    border-left: 2px solid gold;
+    border-top: 2px solid gold;
+    margin-left: 100px;
+
+}
+
+#showcase_bg_img{
+    width: 150px;
+    height: 360px;
+    object-fit: cover;
+}
+
+#showcase_box_2{
+    background-color: #960c0d;
+    width: 100px;
+    height: 168px;
+    margin-left: 7px;
+    align-self: flex-start;
+    margin-top: 48px;
+}
+
+#showcase_box_3{
+    background-color: #960c0d;
+    width: 100px;
+    height: 137px;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 222px;
 }
 
 }
