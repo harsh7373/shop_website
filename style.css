@@ -297,33 +297,34 @@ text-align: left;
     margin-top: 5rem;
 }
 
-#wrap4{
-    margin-top: 28rem;
-    margin-left: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #CTA{
 color: #717071;
-font-size: 1.5rem;
+font-size: 2rem;
+position: absolute;
+margin-left: 50rem;
 }
 
 #info{
-width: 7rem;
-height: 3rem;
-margin-top: 1rem;
+width: 10rem;
+height: 4rem;
+margin-top: 20rem;
 text-align: left;
 background-color: transparent;
 border: 1px solid gold;
 color: white;
 padding-left: 1rem;
-font-size: 1rem;
+font-size: 1.7rem;
+position: absolute;
+margin-left: 68%;
 }
 
 @media (max-width: 600px) {
+
+#welcome_img{
+max-height: 80%;
+}
 
 #nav_bar{
     justify-content: end;
@@ -472,12 +473,13 @@ position: unset;
 
 
 #wrap3{
-    display: flex;
-    position: absolute;
+   
     margin-top: 17rem;
     width: unset;
-    height: unset;
+    height: 45%;
+    flex-wrap: wrap;
     margin-left: 1rem;
+    align-items: flex-start;
     
 }
 
@@ -507,18 +509,12 @@ position: unset;
     margin-left: unset;
 }
 
-#wrap4{
-    margin-top: 28rem;
-    margin-left: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
 #CTA{
 color: #717071;
 font-size: 1.5rem;
+margin-top: 1rem;
+position: unset;
+margin-left: unset;
 }
 
 #info{
@@ -531,6 +527,8 @@ border: 1px solid gold;
 color: white;
 padding-left: 1rem;
 font-size: 1rem;
+margin-left: 35%;
+position: unset;
 }
 
 }
