@@ -1,6 +1,15 @@
-html {
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+ html {
   background-color: #191819;
 }
+
+#Lehenga_listing_html{
+  background-color: #101110;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 @font-face {
   font-family: "AB Nirvana";
@@ -18,6 +27,7 @@ html {
 #home_page_body {
   overflow: scroll;
 }
+
 
 #welcome_section {
   display: flex;
@@ -285,7 +295,7 @@ nav {
 #user_bg_img2{
     width: 18.5rem;
     height: 40rem;
-    bottom: 0rem;
+    bottom: 0.2rem;
     position: absolute;
     background-position: center;
     background-size: cover;
@@ -520,6 +530,171 @@ nav {
   margin-left: 68%;
 }
 
+#credits{
+  margin-left: 18.5rem;
+    color: gold;
+    margin-top: 29rem;
+}
+
+#flexbox{
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#gold_floral1{
+  width: 11rem;
+  height: 11rem;
+  position: fixed;
+  z-index: 1;
+  object-fit: cover;
+  margin-left: 89vw;
+  margin-bottom: 16rem;
+}
+
+#gold_floral2{
+  align-self: anchor-center;
+  width: 11rem;
+  height: 11rem;
+  position: fixed;
+  z-index: 2;
+  object-fit: cover;
+  transform: rotate(180deg);
+  margin-right: 89vw;
+}
+
+#gold_floral3{
+  align-self: anchor-center;
+        width: 11rem;
+        height: 11rem;
+        position: fixed;
+        z-index: 2;
+        object-fit: cover;
+        margin-top: 86vh;
+        margin-right: 86vw;
+}
+
+#gold_floral4{
+    align-self: anchor-center;
+        width: 11rem;
+        height: 11rem;
+        position: fixed;
+        z-index: 2;
+        object-fit: cover;
+        margin-top: 25rem;
+        margin-left: 89vw;
+}
+
+#card_container{
+  width: 12rem;
+  height: 17rem;
+}
+
+#card_container2{
+  width: 12rem;
+  height: 17rem;
+}
+
+#card_container3{
+  width: 12rem;
+  height: 17rem;
+}
+
+#card_container4{
+  width: 12rem;
+  height: 17rem;
+}
+
+#card_container5{
+  width: 12rem;
+  height: 17rem;
+}
+
+#card_container6{
+  width: 12rem;
+  height: 17rem;
+}
+
+.showcase_boxes{ 
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 8rem;
+}
+
+.border_frame{
+  width: 12rem;
+  height: 17rem;
+  position: absolute;
+  z-index: 1;
+  margin-top: 5rem;
+}
+
+#product_imgs{
+  width: 8rem;
+  height: 11rem;
+  border-radius: 1rem;
+}
+
+.buy_btn{
+  margin-left: 3.5rem;
+        margin-top: 17rem;
+        background: linear-gradient(to top, gold, #f2e09b);
+        border-radius: 1rem;
+        width: 5rem;
+        height: 1.5rem;
+}
+
+.dark_overlay_home_pg{
+  width: 100vw;
+    height: 70vh;
+    z-index: 1000;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+#contact_overlay{
+  width: 25rem;
+        height: 34rem;
+        object-fit: contain;
+        position: absolute;
+}
+
+#overlay_heading{
+color: white;
+position: absolute;
+font-size: 6rem;
+font-family: "Great Vibes", cursive;
+margin-bottom: 11rem;
+}
+
+#divider{
+  width: 21rem;
+  height: 2rem;
+  object-fit: contain;
+  filter: brightness(100.2) sepia(1) hue-rotate(10deg) saturate(8) contrast(1.2);
+}
+
+#overlay_content{
+color: white;
+font-size: 2.4rem;
+position: absolute;
+margin-top: 12rem;
+font-family: "Great Vibes", cursive;
+width: 22rem;
+height: 6rem;
+}
+
+
+
 @media (max-width: 600px) {
   #welcome_img {
     max-height: 80%;
@@ -606,6 +781,8 @@ nav {
     height: 2rem;
   }
 
+
+
   #login_div{
 margin-top: 10rem;
   }
@@ -679,6 +856,9 @@ margin-top: 12rem;
    width: 2rem;
    height: 2rem;
   }
+
+
+
 
   #showcase_box_3 {
     background-color: #960c0d;
@@ -839,4 +1019,143 @@ margin-top: 12rem;
     margin-left: 35%;
     position: unset;
   }
+
+  #credits{
+    margin-left: 5rem;
+    color: gold;
+    margin-top: unset;
+  }
+
+#flexbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  justify-content: unset;
+  flex-wrap: unset;
+  min-width: unset;
+  min-height: unset;
+}
+
+#gold_floral1{
+  align-self: end;
+  width: 11rem;
+  height: 11rem;
+  position: fixed;
+  z-index: 2;
+  object-fit: cover;
+  margin-left: unset;
+  margin-bottom: unset;
+}
+
+#gold_floral2{
+  align-self: anchor-center;
+  width: 11rem;
+  height: 11rem;
+  position: fixed;
+  z-index: 2;
+  object-fit: cover;
+  transform: rotate(180deg);
+  margin-bottom: 4rem;
+  margin-left: unset;
+}
+
+#gold_floral3{
+  align-self: anchor-center;
+        width: 11rem;
+        height: 11rem;
+        position: fixed;
+        z-index: 2;
+        object-fit: cover;
+        margin-top: 82vh;
+        margin-right: unset;
+}
+
+#gold_floral4{
+    align-self: anchor-center;
+        width: 11rem;
+        height: 11rem;
+        position: fixed;
+        z-index: 2;
+        object-fit: cover;
+        margin-top: 20rem;
+        margin-left: 69vw;
+}
+
+#card_container{
+  width: 12rem;
+  height: 17rem;
+  margin-top: 4rem;
+}
+
+#card_container2{
+  width: 12rem;
+  height: 17rem;
+}
+
+#card_container3{
+  width: 12rem;
+  height: 17rem;
+}
+
+#card_container4{
+  width: 12rem;
+  height: 17rem;
+}
+
+#card_container5{
+  width: 12rem;
+  height: 17rem;
+}
+
+#card_container6{
+  width: 12rem;
+  height: 17rem;
+}
+
+.showcase_boxes{ 
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.border_frame{
+  width: 12rem;
+  height: 17rem;
+  position: absolute;
+  z-index: 1;
+  margin-top: unset;
+}
+
+#product_imgs{
+  width: 8rem;
+  height: 11rem;
+  border-radius: 1rem;
+}
+
+.buy_btn{
+  margin-left: 3.5rem;
+        margin-top: 12rem;
+        background: linear-gradient(to top, gold, #f2e09b);
+        border-radius: 1rem;
+        width: 5rem;
+        height: 1.5rem;
+}
+
+
+
+.dark_overlay_home_pg{
+  width: 100vw;
+    height: 20vh;
+    z-index: 1000;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
 }
