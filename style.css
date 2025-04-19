@@ -25,7 +25,7 @@
 }
 
 #home_page_body {
-  overflow: scroll;
+overflow-x: hidden;
 }
 
 
@@ -87,11 +87,12 @@ nav {
 
 #nav_bar {
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    z-index: 2;
 }
 
 .brand_name {
@@ -102,11 +103,23 @@ nav {
   font-family: "Cinzel", serif;
 }
 
+a{
+
+  text-decoration: none;
+  
+}
+
+#instagram_a_tag{
+  width: 2rem;
+  height: 2rem;
+}
+
 .nav_options {
   font-size: 20px;
   padding: 10px;
   font-family: "Cinzel", serif;
   color: #717071;
+  
 }
 
 .fa-instagram {
@@ -121,13 +134,44 @@ nav {
   color: #717071;
   position: absolute;
   right: 40px;
+  cursor: pointer;
+}
+
+
+
+#choose{
+  position: absolute;
+  width: 12rem;
+  height: 10rem;
+  background-color: gold;
+  right: 0rem;
+  top: 3rem;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  border-radius: 2rem;
+  border: 1rem solid black;
+  display: none ;
+}
+
+#option1{
+  font-size: 2.3rem;
+  font-family: 'Cinzel';
+  cursor: pointer;
+}
+
+#option2{
+  font-size: 2.3rem;
+  font-family: 'Cinzel';
 }
 
 #main_content {
   height: 100vh;
   width: 100vw;
   position: relative;
-  overflow: scroll;
 }
 
 #wrap {
@@ -426,6 +470,7 @@ nav {
   color: gold;
   border: 1px solid gold;
   text-align: left;
+  cursor: pointer;
 }
 
 #wrap3 {
@@ -528,6 +573,7 @@ nav {
   font-size: 1.7rem;
   position: absolute;
   margin-left: 68%;
+  cursor: pointer;
 }
 
 #credits{
@@ -639,12 +685,15 @@ nav {
 }
 
 .buy_btn{
-  margin-left: 3.5rem;
+        margin-left: 3.5rem;
         margin-top: 17rem;
         background: linear-gradient(to top, gold, #f2e09b);
         border-radius: 1rem;
         width: 5rem;
         height: 1.5rem;
+        position: absolute;
+        z-index: 2;
+        cursor: pointer;
 }
 
 .dark_overlay_home_pg{
@@ -660,9 +709,23 @@ nav {
     display: none;
 }
 
+#dark_overlay{
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+}
+
 
 #contact_overlay{
-  width: 25rem;
+  width: 24rem;
         height: 34rem;
         object-fit: contain;
         position: absolute;
@@ -1156,6 +1219,7 @@ margin-top: 12rem;
     align-items: center;
     display: none;
 }
+
 
 
 }

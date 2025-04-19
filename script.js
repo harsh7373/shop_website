@@ -319,3 +319,52 @@ const firebaseConfig = {
     })
 
   })
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const search_icon=document.querySelector(".fa-magnifying-glass")
+  const choose_container=document.getElementById("choose")
+  const options=document.getElementById("option1")
+  const options2=document.getElementById("option2")
+  const collection_btn=document.getElementById("more_collection_btn")
+  const contact_btn=document.getElementById("info")
+  const homepg_overlay_img=document.querySelector(".dark_overlay_home_pg")
+ 
+
+  search_icon.addEventListener("click",function(){
+    choose_container.style.display="block"
+  })
+
+  search_icon.addEventListener("click",function(){
+    choose_container.style.display="block"
+  })
+
+  options.addEventListener("click",function(){
+    window.location.href="product_listing_lehenga.html"
+  })
+
+  options2.addEventListener("click",function(){
+    window.location.href="product_listing_saree.html"
+  })
+
+
+  collection_btn.addEventListener("click",function(){
+    window.location.href="product_listing_lehenga.html"
+  })
+
+  contact_btn.addEventListener("click",function(){
+    homepg_overlay_img.style.display="block"
+    homepg_overlay_img.style.display="flex"
+  })
+  
+  
