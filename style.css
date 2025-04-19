@@ -725,10 +725,10 @@ a{
 
 
 #contact_overlay{
-  width: 24rem;
-        height: 34rem;
-        object-fit: contain;
-        position: absolute;
+  width: 23rem;
+  height: 34rem;
+  object-fit: contain;
+  position: absolute;
 }
 
 #overlay_heading{
@@ -760,7 +760,8 @@ height: 6rem;
 
 @media (max-width: 600px) {
   #welcome_img {
-    max-height: 80%;
+    width: 37rem;
+    height: 87%;
   }
 
   #nav_bar {
@@ -1208,16 +1209,16 @@ margin-top: 12rem;
 
 
 .dark_overlay_home_pg{
-  width: 100vw;
-    height: 20vh;
-    z-index: 1000;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(2px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
+        width: 100vw;
+        height: 20vh;
+        z-index: 1000;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(2px);
+        display: flex;
+        align-items: center;
+        display: none;
+        right: 0rem;
 }
 
 
