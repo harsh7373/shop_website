@@ -668,6 +668,8 @@ a{
   position: absolute;
   margin-left: 2rem;
   margin-top: 8rem;
+  width: 8rem;
+  height: 11rem;
 }
 
 .border_frame{
@@ -678,10 +680,30 @@ a{
   margin-top: 5rem;
 }
 
-#product_imgs{
+.product_imgs{
   width: 8rem;
   height: 11rem;
   border-radius: 1rem;
+  position: absolute;
+  object-fit: cover;
+}
+
+.product_vids{
+  width: 8rem;
+  height: 11rem;
+  border-radius: 1rem;
+  position: absolute;
+  object-fit: cover;
+}
+
+.fa-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: gold;
+  pointer-events: none; 
 }
 
 .buy_btn{
