@@ -28,6 +28,13 @@
 overflow-x: hidden;
 }
 
+#listing_lehenga_body{
+  overflow-x: hidden;
+}
+
+#listing_saree_body{
+  overflow-x: hidden;
+}
 
 #welcome_section {
   display: flex;
