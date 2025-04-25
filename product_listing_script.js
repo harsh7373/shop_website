@@ -24,19 +24,55 @@ border_frames.forEach(function (frames) {
       if (v !== vids) {
         v.pause();
         v.currentTime = 0;
+        const showcase_boxes=v.parentElement
+
+        const paused_card_conatiner=showcase_boxes.parentElement
+        
+        const play_icon = paused_card_conatiner.querySelector(".fa-play")
+        play_icon.style.display="block"
+
+        const this_buy_btn=paused_card_conatiner.querySelector(".buy_btn")
+        this_buy_btn.style.display="block"
       }
     });
 
     vids.play();
     const play_icon = card_container.querySelector(".fa-play")
     play_icon.style.display="none"
-    vids.muted="false"
+    vids.muted=false
+    const this_buy_btn=card_container.querySelector(".buy_btn")
+    this_buy_btn.style.display="none"
     
   });
 });
 
 
+  var clicks_counter=0
 
+ border_frames.forEach(function (frames){
+
+  frames.addEventListener("click",function(){
+
+   clicks_counter++
+
+   const parent=frames.parentElement
+
+   const video=parent.querySelector(".product_vids")
+
+      if(clicks_counter%2==0){
+
+        video.pause()
+        video.currentTime = 0;
+
+        const play_icon = parent.querySelector(".fa-play")
+        
+        play_icon.style.display="block"
+
+        const this_buy_btn=parent.querySelector(".buy_btn")
+        this_buy_btn.style.display="block"
+      }
+  })
+ })
 
 
 
