@@ -9,8 +9,6 @@
   background-color: #101110;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
 @font-face {
   font-family: "AB Nirvana";
   src: url("fonts/ABNirvana.woff2") format("woff2");
