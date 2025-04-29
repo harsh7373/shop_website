@@ -821,42 +821,42 @@ height: 6rem;
   }
 
   #arch {
-    width: 200px;
-    height: 400px;
+    width: 220px;
+    height: 450px;
   }
 
   #floral {
     width: 100px;
     height: 100px;
-    margin-top: 235px;
-    margin-right: 140px;
+    margin-top: 392px;
+    margin-right: 200px;
   }
 
   #floral2 {
     width: 100px;
     height: 100px;
-    margin-top: 235px;
-    margin-left: 140px;
+    margin-top: 392px;
+    margin-left: 200px;
   }
 
   #big_heading {
-    font-size: 65px;
+    font-size: 69px;
     letter-spacing: 20px;
     margin-bottom: 45px;
   }
 
   #small_heading {
-    font-size: 30px;
+    font-size: 50px;
     margin-top: unset;
-    margin-top: 25px;
+    margin-top: 40px;
   }
 
   #black_floral {
-    width: 20%;
-    height: 20%;
+    width: 29%;
+    height: 22%;
     position: absolute;
     margin-right: 85%;
-    margin-top: 120px;
+    margin-top: 185px;
     object-fit: contain;
   }
 
