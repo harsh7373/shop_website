@@ -822,20 +822,20 @@ height: 6rem;
 
   #arch {
     width: 220px;
-    height: 450px;
+    height: calc(220px * (510 / 278));
   }
 
   #floral {
     width: 100px;
     height: 100px;
-    margin-top: 392px;
+    margin-top: 340px;
     margin-right: 200px;
   }
 
   #floral2 {
     width: 100px;
     height: 100px;
-    margin-top: 392px;
+    margin-top: 340px;
     margin-left: 200px;
   }
 
