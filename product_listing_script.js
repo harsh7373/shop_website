@@ -39,7 +39,6 @@ border_frames.forEach(function (frames) {
     vids.play();
     const play_icon = card_container.querySelector(".fa-play")
     play_icon.style.display="none"
-    vids.muted=false
     const this_buy_btn=card_container.querySelector(".buy_btn")
     this_buy_btn.style.display="none"
     
