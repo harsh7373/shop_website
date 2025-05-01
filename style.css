@@ -251,6 +251,17 @@ a{
     border-top-right-radius: 17rem;
 }
 
+#product_img1{
+  width: 16rem;
+    height: 32rem;
+    position: absolute;
+    margin-top: 0.5rem;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 17rem;
+    border-top-right-radius: 17rem;
+}
+
 #black_floral {
   width: 45%;
   height: 45%;
@@ -354,6 +365,14 @@ a{
     background-size: cover;
 }
 
+#product_img2{
+  width: 18.5rem;
+    height: 40rem;
+    bottom: 0.2rem;
+   object-fit: cover;
+   object-position: center;
+}
+
 #file_upload2{
   position: absolute;
   margin-top: 25rem;
@@ -393,6 +412,13 @@ a{
     position: absolute;
 }
 
+#product_img3{
+  width: 12.9rem;
+    height: 21rem;
+    object-fit: cover;
+    object-position: center;
+}
+
 #file_upload3{
   margin-top: 18rem;
   width: 5rem;
@@ -425,6 +451,13 @@ a{
     background-position: center;
     background-size: cover;
     position: absolute;
+}
+
+#product_img4{
+  width: 12.9rem;
+    height: 16rem;
+   object-fit: cover;
+   object-position: center;
 }
 
 #file_upload4{
@@ -516,6 +549,13 @@ a{
   background-size: cover;
  }
 
+ #product_img6{
+  width: 20.5rem;
+  height: 25rem;
+  object-fit: cover;
+  object-position: center;
+ }
+
  .plus6{
     margin-top: 19.5rem;
     margin-left: 8.7rem;
@@ -544,6 +584,14 @@ a{
     background-position: center;
     background-size: cover;
     position: absolute;
+}
+
+#product_img5{
+  width: 20rem;
+    height: 25rem;
+    object-fit: cover;
+    object-position: center;
+    
 }
 
 #file_upload5{
@@ -865,6 +913,11 @@ height: 6rem;
    height: 17.3rem;
   }
 
+  #product_img1{
+    width: 9rem;
+   height: 17.3rem;
+  }
+
   .fa-plus{
     margin-top: 13rem;
     font-size: 2rem;
@@ -914,6 +967,12 @@ margin-top: 12rem;
 
   }
 
+  #product_img2{
+    width: 9.4rem;
+    height: 18rem;
+ 
+   }
+
   .plus2{
    margin-left: 4rem;
   }
@@ -939,6 +998,11 @@ margin-top: 12rem;
    width: 4.5rem;
    height: 8.5rem;
   }
+
+  #product_img3{
+    width: 4.5rem;
+    height: 8.5rem;
+   }
 
   .plus3{
    margin-top: 6rem;
@@ -966,6 +1030,11 @@ margin-top: 12rem;
   }
 
   #user_bg_img4{
+    width: 4.5rem;
+    height: 6.7rem;
+   }
+
+   #product_img4{
     width: 4.5rem;
     height: 6.7rem;
    }
@@ -1053,6 +1122,13 @@ margin-top: 12rem;
     background-position: center;
     background-size: cover;
    }
+
+   #product_img6{
+    width: 5rem;
+    height: 7rem;
+    margin-left: unset;
+    margin-top: unset;
+   }
  
    .plus6{
     margin-top: 4.5rem;
@@ -1077,6 +1153,11 @@ margin-top: 12rem;
   }
 
   #user_bg_img5{
+    width: 5rem;
+    height: 7rem;
+   }
+
+   #product_img5{
     width: 5rem;
     height: 7rem;
    }
