@@ -333,6 +333,124 @@ a{
   color: white;
 }
 
+
+ 
+.product-rating {
+    color: #ffd700;
+    padding: 6px 10px;
+    border-radius: 16px;
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    border: 1px solid #ffd700;
+    box-shadow: 0 2px 6px rgba(255, 215, 0, 0.2);
+    white-space: nowrap;
+    background-color: black;
+}
+
+#rating1{
+  display: flex;
+  justify-content: center;
+}
+
+#rating2{
+  position: absolute;
+    margin-right: 21rem;
+    margin-top: 43rem;
+}
+
+#rating3{
+position: absolute;
+}
+
+#rating4{
+  position: absolute;
+  margin-top: 17rem;
+}
+
+#rating5{
+  position: absolute;
+    margin-top: 22rem;
+    margin-left: 3rem;
+}
+
+#rating6{
+  position: absolute;
+    margin-top: 26rem;
+    margin-left: 31rem;
+}
+
+#rating7{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating8{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating9{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating10{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating11{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating12{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating13{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating14{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating15{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating16{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating17{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
+#rating18{
+    margin-top: 23rem;
+    position: absolute;
+    z-index: 2;
+}
+
 #wrap2 {
   display: flex;
   justify-content: flex-end;
@@ -938,6 +1056,99 @@ margin-top: 10rem;
   #login_btn{
 margin-top: 12rem;
   }
+
+  .product-rating {
+   font-size: 4px;
+}
+
+
+
+#rating2{
+  
+    margin-left: 23rem;
+    margin-bottom: 59rem;
+}
+#rating3{
+position: absolute;
+}
+
+#rating4{
+
+  margin-top: 7rem;
+}
+
+#rating5{
+  
+    margin-top: 5.5rem;
+    margin-left: 0.4rem;
+}
+
+#rating6{
+
+    margin-top: 8rem;
+    margin-left: 6rem;
+}
+
+#rating7{
+    margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating8{
+    margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating9{
+    margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating10{
+    margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating11{
+   margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating12{
+   margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+
+#rating13{
+    margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating14{
+    margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating15{
+    margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating16{
+    margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating17{
+   margin-top: 17.5rem;
+        margin-left: 4rem;
+}
+
+#rating18{
+   margin-top: 17.5rem;
+        margin-left: 4rem;
+}
 
   #wrap2 {
     display: flex;
