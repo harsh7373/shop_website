@@ -5,6 +5,8 @@
   background-color: #191819;
 }
 
+
+
 #Lehenga_listing_html{
   background-color: #101110;
 }
@@ -987,34 +989,35 @@ height: 6rem;
   }
 
   #arch {
-    width: 150px;
-    height: 300px;
+    width: 300px;
+    height: 600px;
+    margin-top: 5vh;
   }
 
   #floral {
-    width: 100px;
-    height: 100px;
-    margin-top: 235px;
-    margin-right: 140px;
+    width: 108px;
+    height: 160px;
+    margin-top: 580px;
+    margin-right: 274px;
   }
 
   #floral2 {
-    width: 100px;
-    height: 100px;
-    margin-top: 235px;
-    margin-left: 140px;
+    width: 108px;
+    height: 160px;
+    margin-top: 580px;
+    margin-left: 274px;
   }
 
   #big_heading {
-    font-size: 65px;
+    font-size: 119px;
     letter-spacing: 20px;
     margin-bottom: 45px;
   }
 
   #small_heading {
-    font-size: 30px;
+    font-size: 55px;
     margin-top: unset;
-    margin-top: 25px;
+    margin-top: 73px;
   }
 
   #black_floral {
@@ -1027,13 +1030,13 @@ height: 6rem;
   }
 
   #user_bg_img{
-   width: 9rem;
-   height: 17.3rem;
+   width: 18rem;
+   height: 32.3rem;
   }
 
   #product_img1{
-    width: 9rem;
-   height: 17.3rem;
+    width: 18rem;
+   height: 34.3rem;
   }
 
   .fa-plus{
